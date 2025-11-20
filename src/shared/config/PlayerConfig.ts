@@ -183,6 +183,15 @@ export const PlayerConfigDefinition = {
 		type: "bool",
 		config: true as boolean,
 	},
+	blockHealthModifier: {
+		type: "number",
+		config: 1100,
+	},
+	blockMinimalDamageThreshold: {
+		type: "number",
+		config: 15, // in percents
+	},
+
 	dayCycle: {
 		type: "dayCycle",
 		config: {
